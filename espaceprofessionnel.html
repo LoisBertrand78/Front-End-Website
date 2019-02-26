@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>ESPACE PROFESSIONNEL</title>
+    <meta name="description" content="Visuecop la plateforme de l'Audiovisuel qui relie les professionnels et les recruteurs">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- FONTS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/logo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+
+    <!-- BOOTSTRAP CSS
+    ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- VIDEO en fond du body-->
+    <div class="bg-video">
+        <video src="images/Ma-Vibes.mp4" autoplay muted loop></video>
+    </div>
+
+    <!--NAVIGATION-->
+    <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+            <li class="current">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inscription<span class="caret"></span></a>
+                <ul class="dropdown-menu recrutpro" role="menu">
+                    <li><a href="espacerecruteur.html">Recruteur</a></li>
+                    <li><a href="espaceprofessionnel.html">Professionnel</a></li>
+                </ul>
+            </li>
+            <li><a class="smoothscroll" href="index.html">Accueil</a></li>
+            <li><a class="smoothscroll" href="communaute.html">Communauté</a></li>
+            <li><a class="smoothscroll" href="contact.html">Contact</a></li>
+            <li><a class="smoothscroll" href="actualite.html">Actualité</a></li>
+        </ul>
+    </nav>
+
+    <!--HEADER-->
+    <header id="header" class="row-header3">
+        <div class="row full">
+            <div class="full-size">
+                <div class="clear"></div>
+                <div class="identite">
+                    <div class="visuelcop">
+                        <svg>
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="100">VISUELCOP</text>
+                    </symbol>
+                <g class = "g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+    </svg></div>
+
+                </div>
+                <div class="row-button">
+                    <div class="col-sm-6 button1">
+                        <a href="espaceprofessionnel.html" class="espace" title="Vous êtes un professionnel?">Espace PROFESSIONNEL</a>
+                    </div>
+                    <div class="col-sm-6 button1">
+                        <a href="espacerecruteur.html" class="espace" title="Vous êtes recruteur?">Espace RECRUTEUR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--BUTTON SCROLLDOWN-->
+    <div id="go-bottom">
+        <a class="smoothscrolldown" title="Back to down" href="#footer"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!--POPUP CONNEXION SENREGISTRER-->
+    <div class="modal fade fond" style="background-image:url(images/connexion.jpg)" id="myModal">
+        <div class="modal-dialog modal-lg essai">
+            <div class="modal-content pop">
+                <div class="modal-header pop">
+                    <button type="button" id="x" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×</button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        Enregistrement</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#Login" data-toggle="tab">Connexion</a></li>
+                                <li><a href="#Registration" data-toggle="tab">Inscription</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Login">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                        Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="col-sm-4 col-sm-offset-8">
+                                                <input type="checkbox" value="" class="col-sm-2 control-label">
+                                                <p>Se souvenir de moi</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                            </div>
+                                            <div class="col-sm-10 mdp">
+                                                <button type="submit" class="btn btn-primary btn-sm connexion">
+                                            Envoyer</button>
+                                                <a href="javascript:;">Mot de passe oublié?</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane" id="Registration">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Nom</label>
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <select class="form-control">
+                                                    <option>M</option>
+                                                    <option>Mme</option>
+                                                    <option>Mlle</option>
+                                                </select>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <input type="text" class="form-control" placeholder="Nom" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="mobile" class="col-sm-2 control-label">
+                                        Tél</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="mobile" placeholder="Téléphone" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="col-sm-2 control-label">
+                                        Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="password" placeholder="Mot de passe" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-5">
+                                                <button type="button" class="btn btn-primary btn-sm connexion">
+                                            Sauvegarder & Continuer</button>
+                                            </div>
+                                            <div class="col-sm-3 col-sm-offset-2">
+                                                <button type="button" class="btn btn-default btn-sm">
+                                                    Annuler</button></div>
+                                            <div class="col-sm-12 text-center jaccepte">
+                                                <input type="checkbox" value="" class="control-label"> J'accepte les <a href="cgu.html">Conditions Générales d'Utilisation</a></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row text-center sign-with">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Se connecter</h3>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-group btn-group-justified">
+                                        <a href="https://www.facebook.com/" class="btn btn-primary facebook">Facebook</a> <a href="https://www.google.com/intl/fr/gmail/about/" class="btn btn-danger google">
+                                        Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BOUTON CONNEXION + BARRE RECHERCHE-->
+    <div class="row-nav">
+        <div class="col-lg-8">
+            <button type="button" class="btn btn-primary connexion" data-toggle="modal" data-target="#myModal"><i class="fa fa-user" aria-hidden="true"></i> Connexion&nbsp;|&nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i>
+S'enregistrer</button>
+        </div>
+        <div class="col-lg-4">
+            <div class="input-group">
+                <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </span>
+                <input type="text" class="form-control" placeholder="Recherche par métier..">
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION PROFESSIONNEL-->
+    <section class="espacepro">
+        <div class="row recrut2">
+            <div class="col-md-9 col-md-offset-2 top2">
+                <h2>La Plateforme VisuelCop</h2>
+                <h3>Constituée par des professionnels du cinéma, de l’audiovisuel et des nouveaux médias...</h3>
+                <p>Vous êtes professionnel et souhaitez rencontrer des recruteurs disponibles dès maintenant?<br/><strong> Inscrivez-vous et rejoignez notre communnauté!!</strong></p><br/>
+                <a href="#"> En savoir plus +</a>
+            </div>
+        </div>
+        <div class="col-md-12 middle2">
+            <div class="col-md-4 essai">
+                <h1>UNE EQUIPE</h1>
+            </div>
+            <div class="col-md-2 essai">
+                <h2>40</h2><span>abonnes</span>
+            </div>
+            <div class="col-md-2 essai">
+                <h2>12</h2><span>membres</span>
+            </div>
+            <div class="col-md-2 essai">
+                <h2>50</h2><span>projets</span>
+            </div>
+        </div>
+        <div class="row pro">
+            <div class="col-md-5 presentation4">
+                <div class="choose animate-box contact">
+                    <h3>Découvrez nos professionnels de l'Audiovisuel !</h3>
+                    <hr>
+                    <h2>Inscrivez-vous ci-dessous!</h2><br/>
+                    <form action="#">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <input type="text" id="fname" class="form-control" placeholder="Nom...">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <input type="text" id="lname" class="form-control " placeholder="Prénom...">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-10">
+                                <input type="text" id="societe" class="form-control " placeholder="Société...">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input type="text" id="email2" class="form-control" placeholder="E-mail...">
+                            </div>
+                        </div>
+                        <p class="col-md-12 share">Partagez : <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="https://www.gmail.com/"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></p>
+
+                        <div class="form-group">
+                            <input type="submit" value="S'incrire" class="btn btn-primary send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 presentation2">
+                <div class="col-md-12 presentation3">
+                    <h2>EQUIPE</h2><br/>
+                    <p><span class="define">Nom :</span> Adrien Heudier</p>
+                    <p><span class="define">Fonction :</span> Directeur</p>
+                    <p><span class="define">Profil sur La Plateforme :</span> Adrien Heudier</p>
+                    <hr>
+                    <p><span class="define">Nom : </span>Giulia Boccato</p>
+                    <p><span class="define">Fonction :</span> Chargée de mission et communication</p>
+                    <p><span class="define">Profil sur La Plateforme :</span> Giulia Boccato</p>
+                    <hr>
+                    <p><span class="define">Nom : </span>Maël Mainguy</p>
+                    <p><span class="define">Fonction :</span> Président</p>
+                    <p><span class="define">Profil sur La Plateforme :</span> Maël Mainguy</p>
+                    <hr>
+                    <p><span class="define">Nom : </span>Emmanuelle</p>
+                    <p><span class="define">Jacq Fonction :</span> Trésorier</p>
+                    <p><span class="define">Profil sur La Plateforme :</span> Emmanuelle Jacq</p>
+                </div>
+            </div>
+            <div class="col-md-4 presentation">
+                <h3>Qui sommes-nous?</h3>
+                <hr>
+                <p>Constituée par des professionnels du cinéma, de l’audiovisuel et des nouveaux médias, VisuelCop œuvre depuis 2011 à la structuration et à la reconnaissance du monde de <strong>l'Audio-Visuel</strong>. Grâce à son action militante et aux échanges conduits au sein la Culture, VisuelCop devient en 2015 La Plateforme, Pôle cinéma audiovisuel et nouveaux médias du web. Les objectifs principaux de La Plateforme : Travailler en collaboration avec l’ensemble des structures et associations professionnelles de la filière cinéma – audiovisuel – nouveaux médias en France. Mieux identifier et mettre en réseau l’ensemble des acteurs de la filière de l'Audiovisuel. Mettre en place les outils permettant de développer et promouvoir les initiatives, les évènements et les productions avec les professionnels et les représentants de la filière une structure de gouvernance partagée représentative de ses différentes composantes.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--FOOTER-->
+    <footer id="footer" class="slidemenu">
+
+        <!-- Item 1 -->
+        <input type="button" name="slideItem" id="slide-item-1" class="slide-toggle" value="click here" />
+        <label for="slide-item-1"><a class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></a><span>Contact / Accès</span></label>
+
+        <!-- Item 2 -->
+        <input type="button" name="slideItem" id="slide-item-2" class="slide-toggle" value="click here" />
+        <label for="slide-item-2"><a class="icon"><i class="fa fa-bars" aria-hidden="true"></i></a><span>Mentions Légales</span></label>
+
+        <!-- Item 3 -->
+
+        <input type="button" name="slideItem" id="slide-item-3" class="slide-toggle" value="click here" />
+        <label for="slide-item-3"><a class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></a><span>C.G.U</span></label>
+
+        <!-- Item 4 -->
+
+        <input type="button" name="slideItem" id="slide-item-4" class="slide-toggle" value="click here" />
+        <label for="slide-item-4"><a class="icon"><i class="fa fa-globe" aria-hidden="true"></i></a><span>Plan du site</span></label>
+        <!-- Item 5 -->
+
+        <input type="button" name="slideItem" id="slide-item-5" class="slide-toggle" value="click here" />
+        <label for="slide-item-5"><a class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a><span>Facebook</span></label>
+
+        <div class="spacebarre"></div>
+
+        <!-- Bar -->
+        <div class="slider">
+            <div class="bar"></div>
+        </div>
+
+    </footer>
+
+    <!--BUTTON SCROLLTOP-->
+    <div id="go-top">
+        <a class="smoothscrolltop" title="Back to Top" href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a><br>
+        <div class="copy"><p>Copyright 2018 | All Rights Reserved</p></div>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+    <script>$('.espacepro').fadeIn(2000);</script>
+
+
+</body>
+
+</html>

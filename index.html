@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--- Basic Page Needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>INDEX</title>
+    <meta name="description" content="Visuecop la plateforme de l'Audiovisuel qui relie les professionnels et les recruteurs">
+
+    <!-- Mobile Specific Metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- FONTS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/logo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css">
+
+    <!-- BOOTSTRAP CSS
+    ================================================== -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- VIDEO en fond du body-->
+    <div class="bg-video">
+        <video src="images/Ma-Vibes.mp4" autoplay muted loop></video>
+    </div>
+
+    <!--NAVIGATION-->
+    <nav id="nav-wrap">
+        <ul id="nav" class="nav">
+            <li class="current">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inscription<span class="caret"></span></a>
+                <ul class="dropdown-menu recrutpro" role="menu">
+                    <li><a href="espacerecruteur.html">Recruteur</a></li>
+                    <li><a href="espaceprofessionnel.html">Professionnel</a></li>
+                </ul>
+            </li>
+            <li><a class="smoothscroll" href="index.html">Accueil</a></li>
+            <li><a class="smoothscroll" href="communaute.html">Communauté</a></li>
+            <li><a class="smoothscroll" href="contact.html">Contact</a></li>
+            <li><a class="smoothscroll" href="actualite.html">Actualité</a></li>
+        </ul>
+    </nav>
+
+    <!--HEADER-->
+    <header id="header" class="row-header2">
+        <div class="row full">
+            <div class="full-size">
+                <div class="clear"></div>
+                <div class="identite"><!--CLIQUEZ SUR LA TETE DU POLICIER-->
+                    <div class="logo" data-toggle="popover" title="Haut les mains!!" data-content="Vous avez le droit de naviguer comme bon vous semble sur notre site..."></div>
+                    <div class="clear"></div>
+                    <div class="visuelcop">
+                        <svg>
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="100">VISUELCOP</text>
+                    </symbol>
+                <g class = "g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+    </svg></div>
+
+                </div>
+                <div class="row-button">
+                    <div class="col-lg-6 button1">
+                        <a href="espaceprofessionnel.html" class="espace" title="Vous êtes un professionnel?">Espace PROFESSIONNEL</a>
+                    </div>
+                    <div class="col-lg-6 button1">
+                        <a href="espacerecruteur.html" class="espace" title="Vous êtes recruteur?">Espace RECRUTEUR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--BUTTON SCROLLDOWN-->
+    <div id="go-bottom">
+        <a class="smoothscrolldown" title="Back to down" href="#footer"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!--POPUP CONNEXION SENREGISTRER-->
+    <div class="modal fade fond" style="background-image:url(images/connexion.jpg)" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content pop">
+                <div class="modal-header pop">
+                    <button type="button" id="x" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×</button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        Enregistrement</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#Login" data-toggle="tab">Connexion</a></li>
+                                <li><a href="#Registration" data-toggle="tab">Inscription</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="Login">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                        Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="col-sm-4 col-sm-offset-8">
+                                                <input type="checkbox" value="" class="col-sm-2 control-label">
+                                                <p>Se souvenir de moi</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                            </div>
+                                            <div class="col-sm-10 mdp">
+                                                <button type="submit" class="btn btn-primary btn-sm connexion">
+                                            Envoyer</button>
+                                                <a href="javascript:;">Mot de passe oublié?</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane" id="Registration">
+                                    <form class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Nom</label>
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <select class="form-control">
+                                                    <option>M</option>
+                                                    <option>Mme</option>
+                                                    <option>Mlle</option>
+                                                </select>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <input type="text" class="form-control" placeholder="Nom" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="email" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="mobile" class="col-sm-2 control-label">
+                                        Tél</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control" id="mobile" placeholder="Téléphone" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="col-sm-2 control-label">
+                                        Mot de passe</label>
+                                            <div class="col-sm-10">
+                                                <input type="password" class="form-control" id="password" placeholder="Mot de passe" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-5">
+                                                <button type="button" class="btn btn-primary btn-sm connexion">
+                                            Sauvegarder & Continuer</button>
+                                            </div>
+                                            <div class="col-sm-3 col-sm-offset-2">
+                                                <button type="button" class="btn btn-default btn-sm">
+                                                    Annuler</button></div>
+                                            <div class="col-sm-12 text-center jaccepte">
+                                                <input type="checkbox" value="" class="control-label"> J'accepte les <a href="cgu.html">Conditions Générales d'Utilisation</a></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row text-center sign-with">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Se connecter</h3>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-group btn-group-justified">
+                                        <a href="https://www.facebook.com/" class="btn btn-primary facebook">Facebook</a> <a href="https://www.google.com/intl/fr/gmail/about/" class="btn btn-danger google">
+                                        Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BOUTON CONNEXION + BARRE RECHERCHE-->
+    <div class="row-nav">
+        <div class="col-lg-8">
+            <button type="button" class="btn btn-primary connexion" data-toggle="modal" data-target="#myModal"><i class="fa fa-user" aria-hidden="true"></i> Connexion&nbsp;|&nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i>
+S'enregistrer</button>
+        </div>
+        <div class="col-lg-4">
+            <div class="input-group">
+                <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </span>
+                <input type="text" class="form-control" placeholder="Recherche par métier..">
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION JUMBO+SLIDER-->
+    <section class="container-fluide jumbo-slider">
+        <div class="container jumbotron">
+            <div class="svg">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg" x="0px" y="0px" viewBox="0 0 213.235 241.176" enable-background="new 0 0 213.235 241.176" xml:space="preserve" fill="#0057B8">
+    <path d="M108.581,64.968V14.124l44.007,25.422L108.581,64.968"/>
+    <path fill-opacity="0.9" d="M153.591,92.101V41.258L109.582,66.68L153.591,92.101"/><path d="M155.586,92.062V41.221l44.009,25.42L155.586,92.062"/><path fill-opacity="0.7" d="M200.299,119.14V68.297l-44.004,25.421L200.299,119.14"/><path fill-opacity="0.85" d="M155.586,146.255V95.412l44.009,25.422L155.586,146.255"/><path fill-opacity="0.7" d="M200.299,173.35v-50.844l-44.004,25.422L200.299,173.35"/><path fill-opacity="0.6" d="M155.586,200.482v-50.84l44.009,25.417L155.586,200.482"/><path fill-opacity="0.5" d="M153.591,200.521v-50.84l-44.009,25.418L153.591,200.521"/><path fill-opacity="0.6" d="M108.581,227.696v-50.844l44.007,25.421L108.581,227.696"/><path fill-opacity="0.5" d="M106.62,227.696v-50.844l-44.005,25.421L106.62,227.696"/><path fill-opacity="0.7" d="M61.562,200.553V149.71l44.007,25.423L61.562,200.553"/><path fill-opacity="0.7" d="M59.709,200.56v-50.843l-44.008,25.422L59.709,200.56"/><path fill-opacity="0.7" d="M14.699,173.467v-50.843l44.01,25.42L14.699,173.467"/><path fill-opacity="0.5" d="M59.709,146.235V95.392l-44.008,25.42L59.709,146.235"/><path fill-opacity="0.7" d="M14.699,119.141V68.297l44.01,25.421L14.699,119.141"/><path fill-opacity="0.6" d="M59.709,92.101V41.258L15.701,66.68L59.709,92.101"/><path fill-opacity="0.85" d="M61.562,92.092V41.249l44.007,25.419L61.562,92.092"/>
+    <path fill-opacity="0.9" d="M106.62,64.968V14.124L62.614,39.546L106.62,64.968"/>
+  </svg>
+            </div>
+            <h1 style="color:#c5c6c6;">VISUEL COP L'AVENIR</h1>
+            <h2 style="color:#ffffff;">Vous êtes recruteur ou professionnel et vous avez un besoin dans l'audiovisuel?</h2>
+            <p style="color:#ffffff;">Vous êtes là où il faut !! Devenez tout de suite membre, n'hésitez pas un instant c'est ici que cela se passe.</p>
+            <a class="btn btn-primary btn-lg sinscrire" href="fichemembre.html" role="button">Je souhaite m'inscrire</a>
+        </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="container-fluide carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/slider1.jpg" alt="slider1" />
+                    <div class="carousel-caption">
+                        <h4>STUDIO D'ENREGISTREMENT</h4>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slider2.jpeg" alt="slider2" />
+                    <div class="carousel-caption">
+                        <h4>MICRO</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slider3.jpg" alt="slider3" />
+                    <div class="carousel-caption">
+                        <h4>PAD</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slider4.jpg" alt="slider4" />
+                    <div class="carousel-caption">
+                        <h4>AUDIO</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
+    </section>
+
+    <!--SECTION ARTICLE-->
+    <section class="container-fluide">
+        <div class="row-article">
+            <div class="col-md-5 col-md-offset-1 article1">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vmpqd66S4q4"></iframe>
+                </div>
+                <h2>PRESENTATION DE LA PLATEFORME</h2>
+                <p>Qui sommes-nous? Constituée par des professionnels du cinéma, de l’audiovisuel et des nouveaux médias,e. Les objectifs principaux de La Plateforme: Travailler en collaboration avec l’ensemble des structures et associations professionnelles de la filière cinéma – audiovisuel – nouveaux médias.
+                </p><br/>
+                <p class="col-md-4"><i class="fa fa-heart" aria-hidden="true"></i> 249 &nbsp;|
+                    <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;308</p><br/>
+                <a href="presentationdelaplateforme.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-md-4 col-md-offset-1 article2">
+                <h2>COMMUNAUTE</h2>
+                <ul>
+                    <li class="cells"><img src="http://lorempixel.com/150/150" alt="pixel" />
+                        <p>John Malcon - Cadreur<br/><a href="membre.html">Voir fiche</a></p>
+                    </li>
+                    <li class="cells"><img src="http://lorempixel.com/150/150" alt="pixel" />
+                        <p>Esteban Karadik - Monteur<br/><a href="membre.html">Voir fiche</a></p>
+                    </li>
+                    <li class="cells"><img src="http://lorempixel.com/150/150" alt="pixel" />
+                        <p>Steve Dany - Régisseur<br/><a href="membre.html">Voir fiche</a></p>
+                    </li>
+                    <li class="cells"><img src="http://lorempixel.com/150/150" alt="pixel" />
+                        <p>Melissa Toweel - Truquiste<br/><a href="membre.html">Voir fiche</a></p>
+                    </li>
+                    <li class="cells"><img src="http://lorempixel.com/150/150" alt="pixel" />
+                        <p>Janis Joplin - Caméraman<br/><a href="membre.html">Voir fiche</a></p>
+                    </li>
+
+
+                </ul><br/>
+                <p class="col-md-4"><i class="fa fa-eye" aria-hidden="true"></i>&nbsp;308</p>
+
+
+                <a href="communaute.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
+            </div><!--ATTENDRE UN PEU QUE LES PHOTOS SE CHARGENT CAR ELLES VIENNENT DE LOREMPIXEL.COM-->
+            <div class="col-md-10 col-md-offset-1 article3">
+                <h2>ACTUALITES<span> (dernières actualités)</span></h2>
+                <div class="row center">
+                    <div class="col-md-3">
+                        <div class="col-md-12 texte">
+                            <figure class="picturearticle">
+                                <img src="images/fondactu1.jpg" alt="acutalite" class="img-responsive" />
+                                <figcaption>
+                                    <h3>BoomBam<span>CHAKALA</span></h3>
+                                </figcaption>
+                            </figure>
+                            <hr>
+                            <h3>| Actu 1 <span class="date">08 Janvier 2018</span></h3>
+                            <p class="textearticle">Mieux identifier et mettre en réseau l’ensemble des acteurs de la filière. Mettre en place les outils permettant de développer et promouvoir les initiatives, les évènements et les productions régionales. Construire avec les professionnels et les représentants de la filière une structure de gouvernance partagée représentative de ses différentes composantes..</p>
+                            <a href="actualite.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 texte">
+                            <figure class="picturearticle">
+                                <img src="images/fondactu2.jpeg" alt="acutalite" class="img-responsive" />
+                                <figcaption>
+                                    <h3>Les nuits<span>sonores</span></h3>
+                                </figcaption>
+                            </figure>
+                            <hr>
+                            <h3>| Actu 2 <span class="date">15 Mars 2018</span></h3>
+                            <p class="textearticle">Comment se présente l'avenir ? Oui, c'est un secteur très porteur qui constitue sans nul doute une filière d'avenir pour les jeunes, mais aussi les personnes en recherche de reconversion professionnelle. Le centre propose à cet effet des formations éligibles aux différents dispositifs de financements de la formation continue. Actuellement nous avons 40 élèves en formation..</p>
+                            <a href="actualite.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 texte">
+                            <figure class="picturearticle">
+                                <img src="images/fondactu3.jpeg" alt="acutalite" />
+                                <figcaption>
+                                    <h3>MICRO<span>TEST 1/2/3</span></h3>
+                                </figcaption>
+                            </figure>
+                            <hr>
+                            <h3>| Actu 3 <span class="date">06 Juin 2018</span></h3>
+                            <p class="textearticle">Les modalités de mise en œuvre des <strong>contrats de coopération pour les soins visuels*</strong> visant à réduire les délais d’attente chez Visuelcop viennent d’être publiées au Journal Officiel (JO). Elles concernent la formation ou l’embauche d’un professionnel. Si vous êtes motivé et que vous souhaitez rencontrer nos recruteurs au plus vite...</p>
+                            <a href="actualite.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 texte">
+                            <figure class="picturearticle">
+                                <img src="images/fondactu4.jpeg" alt="acutalite" />
+                                <figcaption>
+                                    <h3>Silence..<span>ça tourne</span></h3>
+                                </figcaption>
+                            </figure>
+                            <hr>
+                            <h3>| Actu 3 <span class="date">06 Juin 2018</span></h3>
+                            <p class="textearticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi accusantium, in repellendus quia autem quasi atque reiciendis adipisci. Non officia nisi necessitatibus, iusto accusantium quia vero eum quo eaque obcaecati hic repudiandae nemo temporibus recusandae dignissimos, officiis rem natus iste ullam delectus. Perferendis ...</p>
+                            <a href="actualite.html" class="ensavoirplus">En savoir plus&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer id="footer" class="slidemenu">
+
+        <!-- Item 1 -->
+        <input type="button" name="slideItem" id="slide-item-1" class="slide-toggle" value="click here" />
+        <label for="slide-item-1"><a class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></a><span>Contact / Accès</span></label>
+
+        <!-- Item 2 -->
+        <input type="button" name="slideItem" id="slide-item-2" class="slide-toggle" value="click here" />
+        <label for="slide-item-2"><a class="icon"><i class="fa fa-bars" aria-hidden="true"></i></a><span>Mentions Légales</span></label>
+
+        <!-- Item 3 -->
+
+        <input type="button" name="slideItem" id="slide-item-3" class="slide-toggle" value="click here" />
+        <label for="slide-item-3"><a class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></a><span>C.G.U</span></label>
+
+        <!-- Item 4 -->
+
+        <input type="button" name="slideItem" id="slide-item-4" class="slide-toggle" value="click here" />
+        <label for="slide-item-4"><a class="icon"><i class="fa fa-globe" aria-hidden="true"></i></a><span>Plan du site</span></label>
+        <!-- Item 5 -->
+
+        <input type="button" name="slideItem" id="slide-item-5" class="slide-toggle" value="click here" />
+        <label for="slide-item-5"><a class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a><span>Facebook</span></label>
+
+        <div class="spacebarre"></div>
+
+        <!-- Bar -->
+        <div class="slider">
+            <div class="bar"></div>
+        </div>
+
+    </footer>
+
+    <!--BUTTON SCROLLTOP-->
+    <div id="go-top">
+        <a class="smoothscrolltop" title="Back to Top" href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a><br>
+        <div class="copy"><p>Copyright 2018 | All Rights Reserved</p></div>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        $('.row-header2').slideDown(2000);
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".picturearticle").mouseenter(function() {
+                $(".textearticle").show(1000);
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
